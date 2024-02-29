@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp"
+    android:keyWidth="20%p"
+    >
+
+    <Row>
+    <Key android:keyLabel="அ"  android:keyEdgeFlags="left" />
+    <Key android:keyLabel="ஆ"  />
+    <Key android:keyLabel="இ" />
+    <Key android:keyLabel="ி"  />
+    <Key android:keyLabel="ீ" />
+        <Key android:keyLabel="க"  />
+        <Key android:keyLabel="ங"  />
+        <Key android:keyLabel="ச" />
+        <Key android:keyLabel="ஞ"  />
+        <Key android:keyLabel="ட "  />
+        <Key android:keyLabel="ண" android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="ஈ" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="உ"  />
+        <Key android:keyLabel="ஊ" />
+        <Key android:keyLabel="ு"  />
+        <Key android:keyLabel="ூ" />
+        <Key android:keyLabel="த"  />
+        <Key android:keyLabel="ந"  />
+        <Key android:keyLabel="ப" />
+        <Key android:keyLabel="ம"  />
+        <Key android:keyLabel="ய "  />
+        <Key android:keyLabel="ர" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="எ" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="ஏ"  />
+        <Key android:keyLabel="ஐ" />
+        <Key android:keyLabel="ெ"  />
+        <Key android:keyLabel="ே" />
+        <Key android:keyLabel="ல"  />
+        <Key android:keyLabel="வ"  />
+        <Key android:keyLabel="ழ" />
+        <Key android:keyLabel="ள"  />
+        <Key android:keyLabel="ற "  />
+        <Key android:keyLabel="ன" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="ஒ" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="ஓ"  />
+        <Key android:keyLabel="ஔ" />
+        <Key android:keyLabel="ஔ"  />
+        <Key android:keyLabel="ா" />
+        <Key android:keyLabel="ஜ"  />
+        <Key android:keyLabel="ஷ"  />
+        <Key android:keyLabel="ஸ" />
+        <Key android:keyLabel="ஹ"  />
+        <Key android:keyLabel="ஸ்ரீ"  />
+        <Key android:keyLabel="க்ஷ" android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key android:keyLabel="123" android:keyEdgeFlags="left" />
+        <Key android:keyLabel="ஃ"  />
+        <Key android:keyWidth="40%p" android:keyLabel=" " />
+        <Key android:keyLabel="்"  />
+        <Key android:keyLabel="." />
+        <Key android:keyLabel="⏎"  />
+        <Key android:keyLabel="⌫" android:codes="KEYCODE_DELETE"
+            android:keyEdgeFlags="right" />
+    </Row>
+</Keyboard>
